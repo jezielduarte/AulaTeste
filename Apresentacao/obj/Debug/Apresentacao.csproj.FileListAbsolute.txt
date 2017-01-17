@@ -15,3 +15,5 @@ C:\Users\Prog03\Desktop\AulaAlpha1\trunk\Apresentacao\obj\Debug\Apresentacao.exe
 C:\Users\Prog03\Desktop\AulaAlpha1\trunk\Apresentacao\obj\Debug\Apresentacao.pdb
 C:\Users\Prog03\Desktop\Aula\Apresentacao\obj\Debug\Apresentacao.exe
 C:\Users\Prog03\Desktop\Aula\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\Apresentacao\obj\Debug\Apresentacao.pdb
