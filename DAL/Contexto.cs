@@ -1,21 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using Dominio.Entidades;
 
 namespace DAL
 {
     public class Contexto : DbContext
     {
         public Contexto()
-            : base("Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Initial Catalog=BancoAula;Data Source=(local)")
+            : base("Persist Security Info=False;User ID=sa;Initial Catalog=BancoAula;Data Source=(local)")
         {
-                
+            
         }
 
-        //public DbSet<> Type { get; set; }
+        public DbSet<Pessoa> Pessoas { get; set; }
+        public DbSet<Fornecedor> Fornecedores { get; set; }
+        public DbSet<Telefone> Telefones { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
+
+            modelBuilder.Properties()
+                .Where(p => p.Name == p.ReflectedType.Name + "Id")
+                .Configure(p => p.IsKey());
+
+            modelBuilder.Properties<string>()
+                .Configure(p => p.HasColumnType("varchar"));
+
+            modelBuilder.Properties<string>()
+                .Configure(p => p.HasMaxLength(100));
+
+        }
 
     }
 }

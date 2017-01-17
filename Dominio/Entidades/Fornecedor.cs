@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace Dominio.Entidades
 {
+    [Table("Fornecedores")]
     public class Fornecedor : Pessoa
     {
         public string RazaoSocial { get; set; }
