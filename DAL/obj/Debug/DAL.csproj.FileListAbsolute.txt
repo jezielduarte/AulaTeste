@@ -3,3 +3,15 @@ C:\Users\Prog03\Desktop\AulaAlpha\DAL\bin\Debug\DAL.pdb
 C:\Users\Prog03\Desktop\AulaAlpha\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Prog03\Desktop\AulaAlpha\DAL\obj\Debug\DAL.dll
 C:\Users\Prog03\Desktop\AulaAlpha\DAL\obj\Debug\DAL.pdb
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\DAL.dll.config
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\DAL.dll
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\DAL.pdb
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\Dominio.dll
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\Dominio.pdb
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\obj\Debug\DAL.dll
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\DAL\obj\Debug\DAL.pdb

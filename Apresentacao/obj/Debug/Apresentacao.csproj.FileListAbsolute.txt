@@ -24,3 +24,8 @@ C:\Users\Prog02\Documents\Visual Studio 2012\Projects\Aula2\Aula\trunk\Apresenta
 C:\Users\Prog02\Documents\Visual Studio 2012\Projects\Aula2\Aula\trunk\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
 C:\Users\Prog02\Documents\Visual Studio 2012\Projects\Aula2\Aula\trunk\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
 C:\Users\Prog02\Documents\Visual Studio 2012\Projects\Aula2\Aula\trunk\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Prog03\Desktop\AulaAlpha\trunk\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
