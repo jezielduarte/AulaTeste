@@ -43,9 +43,12 @@
     <Compile Include="Entidades\Banco.cs" />
     <Compile Include="Entidades\Bandeira.cs" />
     <Compile Include="Entidades\Cartao.cs" />
+    <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="Entidades\Empregado.cs" />
     <Compile Include="Entidades\Endereco.cs" />
     <Compile Include="Entidades\Fornecedor.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
+    <Compile Include="Entidades\PlanoDeConta.cs" />
     <Compile Include="Entidades\Telefone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -54,6 +54,8 @@
     <Compile Include="Repositorios\RepositorioEndereco.cs" />
     <Compile Include="Repositorios\RepositorioFornecedor.cs" />
     <Compile Include="Repositorios\RepositorioBase.cs" />
+    <Compile Include="Repositorios\RepositorioPlanoDeConta.cs" />
+    <Compile Include="Repositorios\RepositorioTelefone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
