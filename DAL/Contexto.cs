@@ -15,7 +15,14 @@ namespace DAL
         public DbSet<Pessoa> Pessoas { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
         public DbSet<Telefone> Telefones { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<PlanoDeConta> PlanoDeContas { get; set; }
+        public DbSet<Empregado> Empregados { get; set; }
+        public DbSet<Banco> Bancos { get; set; }
+        public DbSet<Cartao> Cartoes { get; set; }
+        public DbSet<Bandeira> Bandeiras { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
