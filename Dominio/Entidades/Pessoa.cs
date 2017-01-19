@@ -18,7 +18,9 @@ namespace Dominio.Entidades
 
         public NaturezaJuridica Natureza { get; set; }
 
-        public IEnumerable<Telefone> Telefones { get; set; }
+        public ICollection<Telefone> Telefones { get; set; }
+
+        public ICollection<Endereco> Enderecos { get; set; }
         
     }
 
