@@ -46,7 +46,6 @@
     <Compile Include="Entidades\Endereco.cs" />
     <Compile Include="Entidades\Fornecedor.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
-    <Compile Include="Entidades\PlanoDeConta.cs" />
     <Compile Include="Entidades\Telefone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

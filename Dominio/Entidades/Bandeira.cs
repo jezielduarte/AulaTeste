@@ -13,7 +13,5 @@ namespace Dominio.Entidades
 
         public ICollection<Cartao> Cartoes { get; set; }
 
-
-
     }
 }
