@@ -1,11 +1,9 @@
-﻿<<<<<<< .mineusing System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio.Entidades
 {
+    [Table("PlanodeContas")]
     public class PlanoDeConta
     {
         public int Id { get; set; }
@@ -29,16 +27,4 @@ namespace Dominio.Entidades
         N
     }
 }
-=======
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Dominio.Entidades
-{
-    [Table("PlanodeContas")]
-    public class PlanoDeConta
-    {
-        public int Id { get; set; }
-
-    }
-}
->>>>>>> .theirs
