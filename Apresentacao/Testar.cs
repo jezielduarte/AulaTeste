@@ -28,6 +28,7 @@ namespace Apresentacao
             fornecedor.Tipo = TipoPessoa.Fornecedor;
             fornecedor.DataCadastro = DateTime.Now;
             fornecedor.Natureza = NaturezaJuridica.PessoaJuridica;
+
             //Criando Lista de Telefones
             List<Telefone> telefones = new List<Telefone>();
             telefones.Add(new Telefone()

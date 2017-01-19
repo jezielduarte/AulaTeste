@@ -15,6 +15,7 @@ namespace DAL
         public DbSet<Pessoa> Pessoas { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
         public DbSet<Telefone> Telefones { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
