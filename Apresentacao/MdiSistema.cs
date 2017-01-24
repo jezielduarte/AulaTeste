@@ -16,5 +16,13 @@ namespace Apresentacao
         {
             InitializeComponent();
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCadCliente CadCliente = new FrmCadCliente();
+            CadCliente.Show();
+            //new FrmCadCliente().Show();
+
+        }
     }
 }
