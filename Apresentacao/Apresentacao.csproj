@@ -44,12 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< .mine
+    <Compile Include="FrmCadFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadFornecedor.Designer.cs">
+      <DependentUpon>FrmCadFornecedor.cs</DependentUpon>
+    </Compile>
+||||||| .r33
+=======
     <Compile Include="FrmCadCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmCadCliente.Designer.cs">
       <DependentUpon>FrmCadCliente.cs</DependentUpon>
     </Compile>
+>>>>>>> .r37
     <Compile Include="MdiSistema.cs">
       <SubType>Form</SubType>
     </Compile>
