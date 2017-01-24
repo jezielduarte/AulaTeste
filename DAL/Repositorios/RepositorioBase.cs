@@ -8,39 +8,48 @@ namespace DAL.Repositorios
 {
     public class RepositorioBase<TEntity> where TEntity : class
     {
-        protected Contexto Db = new Contexto();
+        protected Contexto contexto;
 
-        public void Add(TEntity obj)
+        public RepositorioBase(Contexto contexto)
         {
-            Db.Set<TEntity>().Add(obj);
-            Db.SaveChanges();
+            this.contexto = contexto;
+        }
+        public RepositorioBase()
+        {
+            this.contexto = new Contexto();
+        }
+        public TEntity Add(TEntity obj)
+        {
+            TEntity t = contexto.Set<TEntity>().Add(obj);
+            contexto.SaveChanges();
+            return t;
         }
 
         public TEntity GetById(int id)
         {
-            return Db.Set<TEntity>().Find(id);
+            return contexto.Set<TEntity>().Find(id);
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            return Db.Set<TEntity>().ToList();
+            return contexto.Set<TEntity>().ToList();
         }
 
         public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
-            return Db.Set<TEntity>().Where(predicate).ToList();
+            return contexto.Set<TEntity>().Where(predicate).ToList();
         }
 
         public void Update(TEntity obj)
         {
-            Db.Entry(obj).State = EntityState.Modified;
-            Db.SaveChanges();
+            contexto.Entry(obj).State = EntityState.Modified;
+            contexto.SaveChanges();
         }
 
         public void Remove(TEntity obj)
         {
-            Db.Set<TEntity>().Remove(obj);
-            Db.SaveChanges();
+            contexto.Set<TEntity>().Remove(obj);
+            contexto.SaveChanges();
         }
     }
 }

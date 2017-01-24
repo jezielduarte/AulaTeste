@@ -1,15 +1,30 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Runtime.InteropServices;
 using Dominio.Entidades;
 
 namespace DAL
 {
     public class Contexto : DbContext
     {
+        private DbContextTransaction transacao;
         public Contexto()
             : base("Persist Security Info=False;User ID=sa;Initial Catalog=BancoAula;Data Source=(local)")
         {
             
+        }
+
+        public void BeginTran()
+        {
+            transacao = Database.BeginTransaction();
+        }
+        public void CommitTran()
+        {
+            transacao.Commit();
+        }
+        public void RollBackTran()
+        {
+            transacao.Rollback();
         }
 
         public DbSet<Pessoa> Pessoas { get; set; }
@@ -17,7 +32,7 @@ namespace DAL
         public DbSet<Telefone> Telefones { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
-        public DbSet<PlanoDeConta> PlanoDeContas { get; set; }
+        //public DbSet<PlanoDeConta> PlanoDeContas { get; set; }
         public DbSet<Empregado> Empregados { get; set; }
         public DbSet<Banco> Bancos { get; set; }
         public DbSet<Cartao> Cartoes { get; set; }

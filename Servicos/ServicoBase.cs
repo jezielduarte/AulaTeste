@@ -1,11 +1,13 @@
 ﻿
 using System.Collections.Generic;
+using DAL;
 using DAL.Repositorios;
 
 namespace Servicos
 {
     public class ServicoBase<TEntity> where TEntity : class
     {
+
         protected RepositorioBase<TEntity> repositorio;
 
         public ServicoBase()
@@ -13,7 +15,7 @@ namespace Servicos
             repositorio = new RepositorioBase<TEntity>();
         }
 
-        public void Add(TEntity obj)
+        public virtual void Add(TEntity obj)
         {
             repositorio.Add(obj);
         }
@@ -28,7 +30,7 @@ namespace Servicos
             return repositorio.GetAll();
         }
 
-        public void Update(TEntity obj)
+        public virtual void Update(TEntity obj)
         {
             repositorio.Update(obj);
         }

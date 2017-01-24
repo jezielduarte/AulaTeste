@@ -7,7 +7,8 @@ using Dominio.Entidades;
 
 namespace DAL.Repositorios
 {
-    public class RepositorioPlanoDeConta: RepositorioBase<PlanoDeConta>
-    {
-    }
+    //public class RepositorioPlanoDeConta : RepositorioBase<PlanoDeConta>
+    //{
+
+    //}
 }

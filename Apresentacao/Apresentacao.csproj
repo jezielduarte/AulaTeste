@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MdiSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiSistema.Designer.cs">
+      <DependentUpon>MdiSistema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testar.cs">
@@ -52,6 +58,9 @@
     <Compile Include="Testar.Designer.cs">
       <DependentUpon>Testar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="MdiSistema.resx">
+      <DependentUpon>MdiSistema.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
