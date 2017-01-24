@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCadCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadCliente.Designer.cs">
+      <DependentUpon>FrmCadCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="MdiSistema.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,9 @@
     <Compile Include="Testar.Designer.cs">
       <DependentUpon>Testar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FrmCadCliente.resx">
+      <DependentUpon>FrmCadCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MdiSistema.resx">
       <DependentUpon>MdiSistema.cs</DependentUpon>
     </EmbeddedResource>
