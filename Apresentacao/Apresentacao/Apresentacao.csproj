@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9406F90F-3B10-4F5F-A644-C52B2529DB2B}</ProjectGuid>
+    <ProjectGuid>{B437F1AC-3EA2-4744-A0EB-1718F8B8A70C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Apresentacao</RootNamespace>
@@ -44,26 +44,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< .mine
-    <Compile Include="FrmCadFornecedor.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCadFornecedor.Designer.cs">
-      <DependentUpon>FrmCadFornecedor.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-||||||| .r33
-=======
     <Compile Include="FrmCadCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCadCliente.Designer.cs">
+    <Compile Include="FrmCadCliente.designer.cs">
       <DependentUpon>FrmCadCliente.cs</DependentUpon>
     </Compile>
->>>>>>> .r37
+    <Compile Include="FrmCadFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadFornecedor.designer.cs">
+      <DependentUpon>FrmCadFornecedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="MdiSistema.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MdiSistema.Designer.cs">
+    <Compile Include="MdiSistema.designer.cs">
       <DependentUpon>MdiSistema.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -71,7 +73,7 @@
     <Compile Include="Testar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Testar.Designer.cs">
+    <Compile Include="Testar.designer.cs">
       <DependentUpon>Testar.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FrmCadCliente.resx">
@@ -103,14 +105,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dominio\Dominio.csproj">
-      <Project>{dc08798b-08f1-4e1f-bd99-e6521529f8ce}</Project>
-      <Name>Dominio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Servicos\Servicos.csproj">
-      <Project>{38bb2d77-6377-4413-bbd4-805498ae1c31}</Project>
-      <Name>Servicos</Name>
-    </ProjectReference>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
