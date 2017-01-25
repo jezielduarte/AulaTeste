@@ -7,7 +7,11 @@ namespace Dominio.Entidades
     [Table("Pessoas")]
     public class Pessoa
     {
-
+        public Pessoa()
+        {
+            Enderecos = new List<Endereco>();
+            Telefones = new List<Telefone>();
+        }
         public int Id { get; set; }
 
         public string Nome { get; set; }

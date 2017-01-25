@@ -5,8 +5,6 @@ namespace Dominio.Entidades
     {
         public int Id { get; set; }
 
-        public int PessoaId { get; set; }
-
         public string Contato { get; set; }
 
         public string Numero { get; set; }
