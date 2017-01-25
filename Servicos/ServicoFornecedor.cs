@@ -9,6 +9,10 @@ namespace Servicos
 {
     public class ServicoFornecedor : ServicoBase<Fornecedor>
     {
+        #region  Forma Luzitana <Comentado>
+       /*
+        * Forma Luzitana
+        * 
         public override void Add(Fornecedor obj)
         {
             //Criando um contexto para que todas as operações participem da mesma transação
@@ -48,8 +52,9 @@ namespace Servicos
             {
                 contexto.Dispose();
             }
-
         }
+        */ 
+        #endregion
 
         public IEnumerable<Fornecedor> ConsultaPorNome(string nome)
         {
