@@ -6,7 +6,6 @@ namespace Dominio.Entidades
     public class Endereco
     {
         public int Id { get; set; }
-        public int PessoaId { get; set; }
         public string EnderecoPessoa { get; set; }
         public string Numero { get; set; }
         public string Complemento { get; set; }
