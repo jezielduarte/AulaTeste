@@ -1,6 +1,5 @@
 ﻿
 using System.Collections.Generic;
-using DAL;
 using DAL.Repositorios;
 
 namespace Servicos

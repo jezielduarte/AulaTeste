@@ -30,12 +30,12 @@ namespace DAL.Repositorios
             return contexto.Set<TEntity>().Find(id);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public ICollection<TEntity> GetAll()
         {
             return contexto.Set<TEntity>().ToList();
         }
 
-        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
+        public ICollection<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
             return contexto.Set<TEntity>().Where(predicate).ToList();
         }

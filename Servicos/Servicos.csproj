@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ServicoPlanoDeConta.cs" />
+    <Compile Include="ServicoEmpregado.cs" />
+    <Compile Include="ServicoCliente.cs" />
+    <Compile Include="ServicoBanco.cs" />
+    <Compile Include="ServicoBandeira.cs" />
+    <Compile Include="ServicoCartao.cs" />
     <Compile Include="ServicoFornecedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServicoBase.cs" />

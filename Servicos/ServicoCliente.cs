@@ -4,7 +4,7 @@ using Dominio.Entidades;
 
 namespace Servicos
 {
-    public class ServicoFornecedor : ServicoBase<Fornecedor>
+    public class ServicoCliente : ServicoBase<Cliente>
     {
         #region  Forma Luzitana <Comentado>
        /*
@@ -53,7 +53,7 @@ namespace Servicos
         */ 
         #endregion
 
-        public ICollection<Fornecedor> ConsultaPorNome(string nome)
+        public ICollection<Cliente> ConsultaPorNome(string nome)
         {
             return repositorio.Find(x => x.Nome == nome);
         }
