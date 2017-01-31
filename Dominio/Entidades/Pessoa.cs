@@ -18,7 +18,7 @@ namespace Dominio.Entidades
 
         public DateTime DataCadastro { get; set; }
 
-        public TipoPessoa Tipo { get; set; }
+        protected TipoPessoa Tipo { get; set; }
 
         public NaturezaJuridica Natureza { get; set; }
 

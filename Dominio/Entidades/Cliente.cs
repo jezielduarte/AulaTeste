@@ -10,6 +10,10 @@ namespace Dominio.Entidades
     [Table("Clientes")]
     public class Cliente: Pessoa
     {
+        public Cliente()
+        {
+            Tipo = TipoPessoa.Cliente;
+        }
         public string RazaoSocial { get; set; }
         public string Cnpj { get; set; }
         public string Cpf { get; set; }

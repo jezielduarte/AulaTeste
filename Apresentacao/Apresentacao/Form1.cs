@@ -21,7 +21,7 @@ namespace Apresentacao
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var cliConsulta = new ServicoCliente().GetAll();
+            //var cliConsulta = new ServicoCliente().GetAll();
 
             Cliente cliente = new Cliente()
             {
@@ -33,7 +33,7 @@ namespace Apresentacao
                 Limite = 1000,
                 Natureza = NaturezaJuridica.PessoaFisica,
                 RazaoSocial = "tem razao",
-                Tipo = TipoPessoa.Fornecedor
+                //Tipo = TipoPessoa.Fornecedor
 
             };
             cliente.Telefones.Add(new Telefone()

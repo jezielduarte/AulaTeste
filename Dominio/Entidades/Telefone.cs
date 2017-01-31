@@ -10,5 +10,6 @@ namespace Dominio.Entidades
         public string Numero { get; set; }
 
         public Pessoa Pessoa { get; set; }
+
     }
 }
