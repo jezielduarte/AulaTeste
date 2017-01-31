@@ -21,6 +21,8 @@ namespace Apresentacao
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var cliConsulta = new ServicoCliente().GetAll();
+
             Cliente cliente = new Cliente()
             {
                 Nome   = "Rouberto CLaudio",
@@ -54,7 +56,7 @@ namespace Apresentacao
                 Bairro = "Mauricio matar",
                 Numero = "123156465",
                 Cep = "1231215",
-                EnderecoPessoa = "teste de endereco",
+                _Endereco = "teste de endereco",
                 Uf = "CE",
                 Cidade = "ceara",
             });

@@ -24,7 +24,7 @@ namespace Servicos
             return repositorio.GetById(id);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public ICollection<TEntity> GetAll()
         {
             return repositorio.GetAll();
         }
