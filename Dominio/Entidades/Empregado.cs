@@ -13,5 +13,6 @@ namespace Dominio.Entidades
         public DateTime OpcaoFgts { get; set; }
         public DateTime Admissao { get; set; }
         public decimal Salario { get; set; }
+        public string Conjuge { get; set; }
     }
 }

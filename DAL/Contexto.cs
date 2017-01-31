@@ -9,7 +9,7 @@ namespace DAL
     {
         private DbContextTransaction transacao;
         public Contexto()
-            : base("Persist Security Info=False;User ID=sa;Initial Catalog=BancoAula;Data Source=(local)")
+            : base("Persist Security Info=False;User ID=sa;pwd=dba@alpha;Initial Catalog=Banco;Data Source=Prog02-PC")
         {
             
         }

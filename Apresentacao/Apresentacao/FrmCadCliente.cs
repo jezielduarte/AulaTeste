@@ -25,7 +25,7 @@ namespace Apresentacao
 
             _cliente.RazaoSocial = TxtRazaoSocial.Text;
             _cliente.Cnpj = TxtCnpjCpf.Text;
-            _cliente.Limite = Convert.ToDecimal(TxtLimite.Text);
+            _cliente.Limite = Convert.ToDecimal("0" + TxtLimite.Text);
             _cliente.DadosAdicionais = TxtDadosAdicionais.Text;
             //ENTIDADE PESSOA
             _cliente.Nome = TxtNome.Text;
