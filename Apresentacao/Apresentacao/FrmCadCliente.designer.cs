@@ -724,7 +724,7 @@
             this.Salvar.Name = "Salvar";
             this.Salvar.Size = new System.Drawing.Size(23, 22);
             this.Salvar.Text = "Salvar";
-            this.Salvar.Click += new System.EventHandler(this.Salvar_Click_1);
+            this.Salvar.Click += new System.EventHandler(this.Salvar_Click);
             // 
             // Desfazer
             // 

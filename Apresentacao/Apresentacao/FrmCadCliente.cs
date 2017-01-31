@@ -27,14 +27,14 @@ namespace Apresentacao
             _cliente.Cnpj = TxtCnpjCpf.Text;
             _cliente.Limite = Convert.ToDecimal(TxtLimite.Text);
             _cliente.DadosAdicionais = TxtDadosAdicionais.Text;
-           //ENTIDADE PESSOA
+            //ENTIDADE PESSOA
             _cliente.Nome = TxtNome.Text;
             _cliente.DataCadastro = DateTime.Now;
             _cliente.Natureza = NaturezaJuridica.PessoaFisica; //Natureza = OptPessoaFisica.Checked = true ? NaturezaJuridica.PessoaFisica : NaturezaJuridica.PessoaJuridica,
             _cliente.Telefones.Add(new Telefone
             {
-                Contato=TxtTel_Contato1.Text,
-                Numero=TxtTel_Fone1.Text
+                Contato = TxtTel_Contato1.Text,
+                Numero = TxtTel_Fone1.Text
             });
             _cliente.Telefones.Add(new Telefone
             {
@@ -49,12 +49,8 @@ namespace Apresentacao
             });
               */
             new ServicoCliente().Add(_cliente);
-            
-        }
-
-        private void Salvar_Click_1(object sender, EventArgs e)
-        {
 
         }
+
     }
 }
