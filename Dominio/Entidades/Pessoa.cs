@@ -22,9 +22,9 @@ namespace Dominio.Entidades
 
         public NaturezaJuridica Natureza { get; set; }
 
-        public ICollection<Telefone> Telefones { get; set; }
+        public virtual ICollection<Telefone> Telefones { get; set; }
 
-        public ICollection<Endereco> Enderecos { get; set; }
+        public virtual ICollection<Endereco> Enderecos { get; set; }
         
     }
 
