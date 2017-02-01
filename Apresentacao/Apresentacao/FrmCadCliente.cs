@@ -41,13 +41,18 @@ namespace Apresentacao
                 Contato = TxtTel_Contato2.Text,
                 Numero = TxtTel_Fone2.Text
             });
-            /*
+            
             _cliente.Enderecos.Add(new Endereco
             {
-                Contato = TxtTel_Contato1.Text,
-                Numero = TxtTel_Fone1.Text
+                Cep = TxtEnd_Cep.Text,
+                _Endereco = TxtEnd_Endereco.Text,
+                Numero = TxtEnd_Numero.Text,
+                Complemento = TxtEnd_Complemento.Text,
+                Bairro = TxtEnd_Bairro.Text,
+                Cidade=CboEnd_Cidade.Text,
+                Uf = CboEnd_Uf.Text
             });
-              */
+            
             new ServicoCliente().Add(_cliente);
 
         }

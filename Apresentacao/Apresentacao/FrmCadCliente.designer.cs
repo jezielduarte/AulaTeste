@@ -668,7 +668,9 @@
             // TbrCrud
             // 
             this.TbrCrud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.TbrCrud.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.TbrCrud.Dock = System.Windows.Forms.DockStyle.None;
+            this.TbrCrud.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.TbrCrud.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Incluir,
             this.Alterar,
