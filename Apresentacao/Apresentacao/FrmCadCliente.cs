@@ -52,5 +52,13 @@ namespace Apresentacao
 
         }
 
+        private void Fechar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja Sair do Formulário ?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
     }
 }

@@ -24,5 +24,13 @@ namespace Apresentacao
             //new FrmCadCliente().Show();
 
         }
+
+        private void encerrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja Encerrar o Sistema ?", "Encerrar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

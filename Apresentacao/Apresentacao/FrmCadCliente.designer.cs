@@ -115,7 +115,7 @@
             // 
             this.TabClientes.Controls.Add(this.Cadastro);
             this.TabClientes.Controls.Add(this.Consulta);
-            this.TabClientes.Location = new System.Drawing.Point(12, 28);
+            this.TabClientes.Location = new System.Drawing.Point(12, 12);
             this.TabClientes.Name = "TabClientes";
             this.TabClientes.SelectedIndex = 0;
             this.TabClientes.Size = new System.Drawing.Size(685, 458);
@@ -667,6 +667,8 @@
             // 
             // TbrCrud
             // 
+            this.TbrCrud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.TbrCrud.Dock = System.Windows.Forms.DockStyle.None;
             this.TbrCrud.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Incluir,
             this.Alterar,
@@ -679,9 +681,9 @@
             this.Imprimir,
             this.toolStripSeparator3,
             this.Fechar});
-            this.TbrCrud.Location = new System.Drawing.Point(0, 0);
+            this.TbrCrud.Location = new System.Drawing.Point(452, 0);
             this.TbrCrud.Name = "TbrCrud";
-            this.TbrCrud.Size = new System.Drawing.Size(709, 25);
+            this.TbrCrud.Size = new System.Drawing.Size(245, 25);
             this.TbrCrud.TabIndex = 1;
             // 
             // Incluir
@@ -771,12 +773,13 @@
             this.Fechar.Name = "Fechar";
             this.Fechar.Size = new System.Drawing.Size(23, 22);
             this.Fechar.Text = "Fechar";
+            this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // FrmCadCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 498);
+            this.ClientSize = new System.Drawing.Size(709, 480);
             this.Controls.Add(this.TbrCrud);
             this.Controls.Add(this.TabClientes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
