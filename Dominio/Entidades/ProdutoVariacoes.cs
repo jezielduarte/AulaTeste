@@ -23,6 +23,10 @@ namespace Dominio.Entidades
 
         public decimal Estoque { get { return Entradas - Saidas; } }
 
+        public decimal EstoqueMinimo { get; set; }
+
+        public decimal EstoqueMaximo { get; set; }
+
         public void AdicionarEstoque(decimal valor)
         {
             Entradas += valor;
@@ -32,6 +36,7 @@ namespace Dominio.Entidades
         {
             Entradas -= valor;
         }
+
 
     }
 }

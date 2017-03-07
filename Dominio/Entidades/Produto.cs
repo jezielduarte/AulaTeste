@@ -33,6 +33,30 @@ namespace Dominio.Entidades
                 return estoque;
             }
         }
+        public decimal EstoqueMinimo
+        {
+            get
+            {
+                decimal estoque = 0;
+                foreach (ProdutoVariacoes item in Variacoes)
+                {
+                    estoque += item.EstoqueMinimo;
+                }
+                return estoque;
+            }
+        }
 
+        public decimal EstoqueMaximo
+        {
+            get
+            {
+                decimal estoque = 0;
+                foreach (ProdutoVariacoes item in Variacoes)
+                {
+                    estoque += item.EstoqueMaximo;
+                }
+                return estoque;
+            }
+        }
     }
 }

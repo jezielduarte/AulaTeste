@@ -9,22 +9,9 @@ namespace DAL
     {
         private DbContextTransaction transacao;
         public Contexto()
-            : base("Persist Security Info=False;User ID=sa;pwd=dba@alpha;Initial Catalog=Banco;Data Source=Prog02-PC")
+            : base("Persist Security Info=False;User ID=sa;pwd=;Initial Catalog=BancoAula;Data Source=(local)")
         {
             
-        }
-
-        public void BeginTran()
-        {
-            transacao = Database.BeginTransaction();
-        }
-        public void CommitTran()
-        {
-            transacao.Commit();
-        }
-        public void RollBackTran()
-        {
-            transacao.Rollback();
         }
 
         public DbSet<Pessoa> Pessoas { get; set; }
@@ -37,7 +24,14 @@ namespace DAL
         public DbSet<Banco> Bancos { get; set; }
         public DbSet<Cartao> Cartoes { get; set; }
         public DbSet<Bandeira> Bandeiras { get; set; }
-
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<ProdutoVariacoes> ProdutoVariacoes { get; set; }
+        public DbSet<Colecao> Colecoes { get; set; }
+        public DbSet<Tamanho> Tamanhos { get; set; }
+        public DbSet<Cor> Cores { get; set; }
+        public DbSet<Colecao> Colecoes { get; set; }
+        public DbSet<Marca> Marcas { get; set; }
+        public DbSet<Unidade> Unidades { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
