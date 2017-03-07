@@ -21,7 +21,7 @@ namespace Dominio.Entidades
 
         protected decimal Saidas { get; set; }
 
-        public decimal Estoque { get { Entradas - Saidas } }
+        public decimal Estoque { get { return Entradas - Saidas; } }
 
         public void AdicionarEstoque(decimal valor)
         {
