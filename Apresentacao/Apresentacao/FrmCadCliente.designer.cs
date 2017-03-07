@@ -683,9 +683,9 @@
             this.Imprimir,
             this.toolStripSeparator3,
             this.Fechar});
-            this.TbrCrud.Location = new System.Drawing.Point(452, 0);
+            this.TbrCrud.Location = new System.Drawing.Point(444, 0);
             this.TbrCrud.Name = "TbrCrud";
-            this.TbrCrud.Size = new System.Drawing.Size(245, 25);
+            this.TbrCrud.Size = new System.Drawing.Size(253, 27);
             this.TbrCrud.TabIndex = 1;
             // 
             // Incluir
@@ -694,8 +694,9 @@
             this.Incluir.Image = ((System.Drawing.Image)(resources.GetObject("Incluir.Image")));
             this.Incluir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Incluir.Name = "Incluir";
-            this.Incluir.Size = new System.Drawing.Size(23, 22);
+            this.Incluir.Size = new System.Drawing.Size(24, 24);
             this.Incluir.Text = "Incluir";
+            this.Incluir.Click += new System.EventHandler(this.Incluir_Click);
             // 
             // Alterar
             // 
@@ -703,7 +704,7 @@
             this.Alterar.Image = ((System.Drawing.Image)(resources.GetObject("Alterar.Image")));
             this.Alterar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Alterar.Name = "Alterar";
-            this.Alterar.Size = new System.Drawing.Size(23, 22);
+            this.Alterar.Size = new System.Drawing.Size(24, 24);
             this.Alterar.Text = "Alterar";
             // 
             // Excluir
@@ -712,13 +713,13 @@
             this.Excluir.Image = ((System.Drawing.Image)(resources.GetObject("Excluir.Image")));
             this.Excluir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Excluir.Name = "Excluir";
-            this.Excluir.Size = new System.Drawing.Size(23, 22);
+            this.Excluir.Size = new System.Drawing.Size(24, 24);
             this.Excluir.Text = "Excluir";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // Salvar
             // 
@@ -726,7 +727,7 @@
             this.Salvar.Image = ((System.Drawing.Image)(resources.GetObject("Salvar.Image")));
             this.Salvar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Salvar.Name = "Salvar";
-            this.Salvar.Size = new System.Drawing.Size(23, 22);
+            this.Salvar.Size = new System.Drawing.Size(24, 24);
             this.Salvar.Text = "Salvar";
             this.Salvar.Click += new System.EventHandler(this.Salvar_Click);
             // 
@@ -736,13 +737,13 @@
             this.Desfazer.Image = ((System.Drawing.Image)(resources.GetObject("Desfazer.Image")));
             this.Desfazer.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Desfazer.Name = "Desfazer";
-            this.Desfazer.Size = new System.Drawing.Size(23, 22);
+            this.Desfazer.Size = new System.Drawing.Size(24, 24);
             this.Desfazer.Text = "Desfazer";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // Consultar
             // 
@@ -750,7 +751,7 @@
             this.Consultar.Image = ((System.Drawing.Image)(resources.GetObject("Consultar.Image")));
             this.Consultar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Consultar.Name = "Consultar";
-            this.Consultar.Size = new System.Drawing.Size(23, 22);
+            this.Consultar.Size = new System.Drawing.Size(24, 24);
             this.Consultar.Text = "Consultar";
             // 
             // Imprimir
@@ -759,13 +760,13 @@
             this.Imprimir.Image = ((System.Drawing.Image)(resources.GetObject("Imprimir.Image")));
             this.Imprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Imprimir.Name = "Imprimir";
-            this.Imprimir.Size = new System.Drawing.Size(23, 22);
+            this.Imprimir.Size = new System.Drawing.Size(24, 24);
             this.Imprimir.Text = "Imprimir";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // Fechar
             // 
@@ -773,7 +774,7 @@
             this.Fechar.Image = ((System.Drawing.Image)(resources.GetObject("Fechar.Image")));
             this.Fechar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Fechar.Name = "Fechar";
-            this.Fechar.Size = new System.Drawing.Size(23, 22);
+            this.Fechar.Size = new System.Drawing.Size(24, 24);
             this.Fechar.Text = "Fechar";
             this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
