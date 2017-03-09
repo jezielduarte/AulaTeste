@@ -19,11 +19,9 @@ namespace DAL.Repositorios
             this.contexto = new Contexto();
         }
         public TEntity Add(TEntity obj)
-        {
-            contexto.BeginTran();
+        {           
             TEntity t = contexto.Set<TEntity>().Add(obj);
             contexto.SaveChanges();
-            contexto.CommitTran();
             return t;
         }
 

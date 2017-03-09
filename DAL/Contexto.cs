@@ -25,8 +25,7 @@ namespace DAL
         public DbSet<Cartao> Cartoes { get; set; }
         public DbSet<Bandeira> Bandeiras { get; set; }
         public DbSet<Produto> Produtos { get; set; }
-        public DbSet<ProdutoVariacoes> ProdutoVariacoes { get; set; }
-        public DbSet<Colecao> Colecoes { get; set; }
+        public DbSet<ProdutoVariacoes> ProdutoVariacoes { get; set; }    
         public DbSet<Tamanho> Tamanhos { get; set; }
         public DbSet<Cor> Cores { get; set; }
         public DbSet<Colecao> Colecoes { get; set; }
