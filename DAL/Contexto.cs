@@ -9,8 +9,7 @@ namespace DAL
     {
 
         private DbContextTransaction transacao;
-        public Contexto()            
-            : base(new Config().ConectionString)
+        public Contexto() : base(new Config().ConectionString)
         {
             
         }
