@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config.cs" />
     <Compile Include="Contexto.cs" />
     <Compile Include="Migrations\201701311650159_Criei o campo conjuge.cs" />
     <Compile Include="Migrations\201701311650159_Criei o campo conjuge.Designer.cs">
