@@ -7,11 +7,10 @@ namespace DAL
 {
     public class Contexto : DbContext
     {
-        Config config = new Config().criarconfig();
 
         private DbContextTransaction transacao;
         public Contexto()            
-            : base("Persist Security Info=False;User ID=sa;pwd=;Initial Catalog=BancoAula;Data Source=(local)")
+            : base(new Config().ConectionString)
         {
             
         }
